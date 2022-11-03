@@ -1,0 +1,337 @@
+
+.container1{
+    margin-top: 0%;
+    display: flex;
+    height: 22px;
+    background-color: rgb(172, 187, 201);
+}
+.topo_left img{
+    float: left;
+}
+.topo_left{
+    width: 50%;
+}
+.anuncie{
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
+} 
+.topo_right{
+    width: 50%;
+}
+.topo_right ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    width: 30%;  
+    height: 20px;
+    margin-top: 0%;
+    margin-left: 300px;
+    justify-content: flex-end;
+    align-items: center;
+}
+#topo_busca{
+    background-color: #e0e3ff;
+    height: 20px;
+}
+.topo_right ul li{
+    padding-inline: 5px;
+}
+.lupa{
+    margin-right: 15px;
+}
+.container2{
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 20px;
+    background-color: rgb(1, 44, 82);
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+.container2 a{
+    text-decoration: none;
+}
+.banner {
+    color: whitesmoke;
+    font-family: 'bebas neue';
+    font-size: 50px;
+    margin-top: 20px;
+}
+.menu_principal{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: 'bebas neue';
+    background-color: rgb(2, 75, 138);
+    height: 50px;
+}
+.menu_principal ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px
+    ;
+}
+.menu_principal ul li {
+    display: inline-block;
+}
+.menu_principal ul li a {
+    flex-wrap: nowrap;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    transition: background .3s;
+}
+.menu_principal ul li a:hover {
+   background-color: rgb(172, 187, 201);
+   color: rgb(1, 44, 82);
+}
+.container_categoria{
+    display: flex;
+    background-color: rgb(1, 44, 82);
+    height: 110px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.categoria_pagina{
+    width: 100%;
+    height: 100px;
+    font-family: 'bebas neue';
+    color: azure;
+    text-align: left;
+    background-color: rgb(221, 71, 101);
+}
+.categoria_pagina h1{
+    margin-top: 15px;
+    margin-left: 75px;
+    font-size: 60px;
+}
+.container_carrossel{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.carousel-item div {
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    background-color:rgba(1, 44, 82, 0.781);;
+    width: 100%;
+    margin-left: -15%;
+} 
+.carousel-item div h5{
+    font-size: 30px;
+}
+.container_esquerda{
+    display: flex;
+    float: center;
+    max-width: 100%;
+    height: 2100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;   
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.noticia div{
+    width: 900px;
+    height: 2000px;  
+    flex-wrap: nowrap;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #0052cc23;
+    
+    border-radius: 10px;
+} 
+.noticia h1{
+
+    font-size: 40px;
+    font-family: 'bebas neue';
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+ .noticia img{
+    width: 750px;
+    margin-left: 75px;
+    border: 1px solid  rgb(2, 75, 138);
+} 
+.noticia #descricao{
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+    color: #6e6e6e;
+}
+.noticia p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;  
+}
+.noticia h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 20px; 
+}
+
+
+
+
+.pagination{
+    float: right;
+}
+
+.publicidade{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 500px;
+    height: auto;
+}
+.mais_lidas{
+    max-width: 400px;
+    height: 30%;  
+    margin-top: 150px;
+    margin-left: 100px;;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mais_lidas h1{
+    font-family: 'bebas neue';
+    font-size: 50px;
+    color: rgb(2, 75, 138);
+}
+.mais_lidas .card{
+    text-align: center;
+    border: none;
+}
+.mais_lidas .card-body a{
+    padding-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #171717;
+    font-family: 'bebas neue';
+    transition: background .3s;
+}
+.mais_lidas a:hover {
+   color: rgb(2, 75, 138);
+}
+
+.publicidade2{
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 400px;
+}
+
+.container5{
+    display: flex;
+    width: 100%;
+    height: 350px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(2, 75, 138);
+}
+.rodape_esquerda{
+    margin-top: 10px;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.rodape_esquerda ul{
+    margin-top: 40px;
+    width: 130px;
+    list-style-type: none;
+} 
+.rodape_esquerda li a{
+    text-decoration: none;
+    margin-left: -25px;
+    font-size: 18px;
+    color: #e2f2fd;
+    transition: color.3s;
+}
+.rodape_esquerda a:hover {
+   color: rgb(142, 199, 248);
+}
+#quem_somos{
+    font-size: 40px;
+    align-self: center;
+    font-family: 'bebas neue';
+    text-decoration: none;
+    width: auto;
+    color:#ebf7ff;
+}
+#quem_somos:hover {
+    color: rgb(142, 199, 248);
+ }
+#telefone{
+    text-align: center;
+    margin-top: 65px;
+    color: #ebf7ff;
+}
+.rodape_direita{
+    margin-top: 10px;
+    text-align: center;
+    position:relative;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rodape_direita h1 {
+    font-size:30px;
+    font-family: 'bebas neue';
+    color: #ebf7ff;
+    align-self: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.rodape_direita .form-label{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #e0e3ff;
+    margin-left: 100px;
+}
+.rodape_direita .form-control{
+    float: right;
+    width: 250px;
+    margin-right: 200px;
+}
+.rodape_direita .btn{
+    width: 100px;
+    border: none;
+    margin-left: 500px;
+    margin-top: -51px;
+    float: right;
+    background-color: rgb(1, 44, 82);
+}
+.rodape_bot{
+    margin-left: 0px;
+    text-align: center;
+    background-color: rgb(1, 44, 82);
+    width: 100%;
+    height: 40px;
+}
+.rodape_bot p{
+    margin-top: 8px;
+    color: #ebf7ff;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
